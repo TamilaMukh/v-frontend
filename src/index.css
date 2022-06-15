@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shopname {
+    font-family: 'Audiowide';
+}
+.loader {
+    border: 8px solid #d8cde9;
+    border-top: 8px solid #9369d7;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.frstDrop {
+  position: absolute;
+  z-index: 1000;
+  top: 5.4rem;
+  left: 94rem;
+}
+.scndDrop {
+  position: absolute;
+  z-index: 1000;
+  top: 5.4rem;
+  left: 106rem;
+}
+.thrdDrop {
+  position: absolute;
+  top: 5.4rem;
+  left: 51%;
+  z-index: 1000;
+  padding: 0rem 0rem 0rem 0rem;
+}
